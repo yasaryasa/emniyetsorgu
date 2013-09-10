@@ -1,0 +1,130 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:129), pid=7908, tid=10844
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version: 7.0_09-b05
+# Java VM: Java HotSpot(TM) Client VM (23.5-b02 mixed mode windows-x86 )
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x001fa800):  JavaThread "Unknown thread" [_thread_in_vm, id=10844, stack(0x01230000,0x01280000)]
+
+Stack: [0x01230000,0x01280000],  sp=0x0127f87c,  free space=318k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x16f2f1]
+V  [jvm.dll+0x169496]
+V  [jvm.dll+0x2082f]
+V  [jvm.dll+0x208b6]
+V  [jvm.dll+0x2e64d]
+V  [jvm.dll+0x2e8f9]
+V  [jvm.dll+0x77d01]
+V  [jvm.dll+0x780bb]
+V  [jvm.dll+0x1290e1]
+V  [jvm.dll+0x149b8a]
+V  [jvm.dll+0xa997f]
+C  [javaw.exe+0x1359]
+C  [javaw.exe+0x1dbb]
+C  [javaw.exe+0xa0eb]
+C  [javaw.exe+0xa175]
+C  [kernel32.dll+0x51174]  BaseThreadInitThunk+0x12
+C  [ntdll.dll+0x5b3f5]  RtlInitializeExceptionChain+0x63
+C  [ntdll.dll+0x5b3c8]  RtlInitializeExceptionChain+0x36
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x001fa800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=10844, stack(0x01230000,0x01280000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.666 loading class 0x01393568 done
+Event: 0.667 loading class 0x01392d70 done
+Event: 0.667 loading class 0x01392d48
+Event: 0.667 loading class 0x01406788
+Event: 0.687 loading class 0x01406788 done
+Event: 0.687 loading class 0x014067c0
+Event: 0.694 loading class 0x014067c0 done
+Event: 0.694 loading class 0x013fc670
+Event: 0.694 loading class 0x013fc670 done
+Event: 0.695 loading class 0x01392d48 done
+
+
+Dynamic libraries:
+0x00340000 - 0x0036f000 	F:\Program Files\Java\jre7\bin\javaw.exe
+0x776a0000 - 0x777dc000 	F:\Windows\SYSTEM32\ntdll.dll
+0x75e30000 - 0x75f04000 	F:\Windows\system32\kernel32.dll
+0x759e0000 - 0x75a2a000 	F:\Windows\system32\KERNELBASE.dll
+0x77560000 - 0x77600000 	F:\Windows\system32\ADVAPI32.dll
+0x761d0000 - 0x7627c000 	F:\Windows\system32\msvcrt.dll
+0x77800000 - 0x77819000 	F:\Windows\SYSTEM32\sechost.dll
+0x77210000 - 0x772b1000 	F:\Windows\system32\RPCRT4.dll
+0x75c50000 - 0x75d19000 	F:\Windows\system32\USER32.dll
+0x76fc0000 - 0x7700e000 	F:\Windows\system32\GDI32.dll
+0x76ed0000 - 0x76eda000 	F:\Windows\system32\LPK.dll
+0x77600000 - 0x7769d000 	F:\Windows\system32\USP10.dll
+0x74770000 - 0x7490e000 	F:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16385_none_421189da2b7fabfc\COMCTL32.dll
+0x77870000 - 0x778c7000 	F:\Windows\system32\SHLWAPI.dll
+0x777e0000 - 0x777ff000 	F:\Windows\system32\IMM32.DLL
+0x76ef0000 - 0x76fbc000 	F:\Windows\system32\MSCTF.dll
+0x6c6c0000 - 0x6c77e000 	F:\Program Files\Java\jre7\bin\msvcr100.dll
+0x68310000 - 0x6865d000 	F:\Program Files\Java\jre7\bin\client\jvm.dll
+0x71340000 - 0x71347000 	F:\Windows\system32\WSOCK32.dll
+0x77830000 - 0x77865000 	F:\Windows\system32\WS2_32.dll
+0x75b40000 - 0x75b46000 	F:\Windows\system32\NSI.dll
+0x74060000 - 0x74092000 	F:\Windows\system32\WINMM.dll
+0x76ee0000 - 0x76ee5000 	F:\Windows\system32\PSAPI.DLL
+0x70840000 - 0x7084c000 	F:\Program Files\Java\jre7\bin\verify.dll
+0x70820000 - 0x70840000 	F:\Program Files\Java\jre7\bin\java.dll
+0x70800000 - 0x70813000 	F:\Program Files\Java\jre7\bin\zip.dll
+0x66740000 - 0x6682b000 	F:\Windows\system32\dbghelp.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1254 -Xbootclasspath:F:\dev\tools\android\platforms\android-16\android.jar 
+java_command: com.yaser.service.CallWebService
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=F:\Program Files\Java\jdk1.7.0_09\
+PATH=F:/Program Files/Java/jre7/bin/client;F:/Program Files/Java/jre7/bin;F:/Program Files/Java/jre7/lib/i386;F:\Windows\system32;F:\Windows;F:\Windows\System32\Wbem;F:\Windows\System32\WindowsPowerShell\v1.0\;F:\Program Files\Java\jdk1.7.0_09\\bin;F:\dev\tools\eclipse;
+USERNAME=Administrator
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 37 Stepping 5, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 Build 7600 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 37 stepping 5, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht, tsc, tscinvbit
+
+Memory: 4k page, physical 3128708k(801120k free), swap 7102128k(2384992k free)
+
+vm_info: Java HotSpot(TM) Client VM (23.5-b02) for windows-x86 JRE (1.7.0_09-b05), built on Sep 24 2012 22:01:33 by "java_re" with unknown MS VC++:1600
+
+time: Sun Nov 18 15:19:37 2012
+elapsed time: 0 seconds
+

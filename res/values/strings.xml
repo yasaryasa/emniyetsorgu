@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Emniyet Sorgu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="btn_speak_label">Speak</string>
+    <string name="btn_speak_label_fordisplay">Displaying results</string>
+    <string name="btn_tts_stop_speak_label">Stop speaking</string>
+    <string name="btn_speech_write_activation_tag">Write speech activation tag</string>
+    
+    <string name="btn_start_motion_activate">Start Movement Activator</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_stop">Stop</string>
+    
+    <string name="speech_prompt">Speak</string>
+    <string name="speechTargetHeading">What you are trying to say</string>
+    <string name="speechTargetPresetHeading">Select preset</string>
+    <string name="speechActivationHeading">Select speech activation method</string>
+    <string name="speechResultsHeading">Results: </string>
+    <string name="speechNotAvailableMessage">Speech recognition not supported on this device</string>
+    <string name="SpeechRecognitionResultsActivityLabel">Speech Recognition Results</string>
+    <string name="speechRecognitionFailed">Did not understand, please try again</string>
+    <string name="speechMultiFoodResultHeading">Recognition Results</string>
+    <string name="speech_data_check_result_title">Language Details Results</string>
+    
+    <string name="speechActiviationHeading">Activation Method</string>
+    <string name="speechActiviationControlHeading">Activation Control</string>
+    
+    <string name="speech_activation_btn_prefix">Start </string>
+    <string name="speech_activation_btn_listening">Listening for </string>
+
+    <string name="speech_launcher_prompt">Say a test phrase.</string>
+    
+    <string name="btn_speech_start_service">Start</string>
+    <string name="btn_speech_stop_service">Stop</string>
+    
+    <array name="speech_activation_types">
+        <item>@string/speech_activation_button</item>
+        <item>@string/speech_activation_movement</item>
+        <item>@string/speech_activation_clap</item>
+        <item>@string/speech_activation_speak</item>
+    </array>
+
+    <string name="speech_activation_default_label">Speak</string>
+    
+    <string name="speech_activation_button">Button</string>
+    <string name="speech_activation_movement">Movement</string>
+    <string name="speech_activation_nfc">NFC Scan</string>
+    <string name="speech_activation_camera">Camera</string>
+    <string name="speech_activation_clap">Clap</string>
+    <string name="speech_activation_speak">Speak Hello</string>
+
+    <string name="speech_activation_notification_listening">Listening for </string>
+    <string name="speech_activation_notification_title">Speech Activation</string> 
+    
+        <!-- audio -->
+    <string name="audio_start_clapper">Start Clapper</string>
+    <string name="audio_stop_clapper">Stop</string>
+    <string name="audio_stop_clapper_all">Stop Recording</string>
+    <string name="audio_magnitude_label">Max Amplitude</string>
+    <string name="audio_log">Detections</string>
+    <string name="audio_start_pitch">Start Logging</string>
+    
+    <string name="audio_start_audio_clapper">Start Noise Clapper</string>
+    <string name="audio_start_singing_clapper">Start Singing Clapper</string>
+    
+    <string name="audio_play_low">Play low</string>
+    <string name="audio_play_mid">Play Mid</string>
+    <string name="audio_play_high">Play High</string>
+    <string name="audio_play_all">Play All</string>
+
+    <string name="audio_status_recording">Recording</string>
+    <string name="audio_status_stopped">Not Recording</string>
+    
+    <string name="menu_param">Matching Preferences</string>
+
+</resources>

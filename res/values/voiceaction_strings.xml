@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="voiceaction_yeswords">
+        <item>evet</item>
+        <item>tamam</item>
+    </array>
+    <array name="voiceaction_nowords">
+        <item>no</item>
+    </array>
+    <array name="voiceaction_neutralwords">
+        <item>iptal</item>
+        <item>tamam</item>
+    </array>
+
+    <string name="voiceaction_cancelled_response">İşlem iptal edildi.</string>
+    
+    <string name="voiceaction_dontunderstand">Kusura bakmayın, anlayamadım, lütfen tekrar deneyin.</string>
+    <string name="voiceaction_unknown">Kusura bakmayın, anlayamadım.</string>
+    <string name="voiceaction_not_command">%1$s bir komut değil</string>
+    <string name="voiceaction_heard_nothing">Kusura bakmayın, anlayamadım çünkü hiçbirşey duyamadım.</string>
+    <string name="voiceaction_inaccurate">Kusura bakmayın, anlayamadım çünkü iyi duyamadım.</string>
+    <string name="voiceaction_retry">, lütfen tekrar deneyin.</string>
+    
+</resources>

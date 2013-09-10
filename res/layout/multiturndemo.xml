@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|right|fill_vertical"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/buttonYardim"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:background="@drawable/yardim" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/polis_amblem" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioGroup
+                android:id="@+id/radioGroupMethod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radioGrammer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Grammer" />
+
+                <RadioButton
+                    android:id="@+id/radioMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Menu" />
+
+            </RadioGroup>
+
+            <CheckBox
+                android:id="@+id/checkWordSpotting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Word Spotting" />
+
+            <CheckBox
+                android:id="@+id/checkBoxStemming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Stemming" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_kimlik"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:text="Başlat"
+            android:width="100dp" />
+
+    </LinearLayout>
+        
+</LinearLayout>
